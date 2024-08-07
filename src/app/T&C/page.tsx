@@ -4,21 +4,21 @@ function TermsOfUse() {
     return (
         <div className="container mx-auto px-4 py-8">
             <h1 className="text-3xl font-bold mb-4">Synapse Terms of Use (B2B Subscription Model)</h1>
-            <p className="text-sm text-gray-500">By ConatusBharat</p>
+            <p className="text-sm text-gray-500">By WaffleBharat</p>
 
             <div className="prose lg:prose-xl mb-8">
                 <p>
-                    {`These Terms of Use ("Terms") govern the access to and use of Synapse, a software platform provided by ConatusBharat ("we," "us," or "our") to schools or educational institutions ("School" or "you") under a subscription model. By accessing or using Synapse, you, on behalf of your School, agree to be bound by these Terms.`}
+                    {`These Terms of Use ("Terms") govern the access to and use of Synapse, a software platform provided by WaffleBharat ("we," "us," or "our") to schools or educational institutions ("School" or "you") under a subscription model. By accessing or using Synapse, you, on behalf of your School, agree to be bound by these Terms.`}
                 </p>
                 <br />
                 <h2>Subscription Agreement</h2>
                 
                 <p>
-                    <b>1.1 Nature of Agreement:</b> {`This Agreement constitutes a legally binding contract between ConatusBharat and the School for the use of Synapse.`}
+                    <b>1.1 Nature of Agreement:</b> {`This Agreement constitutes a legally binding contract between WaffleBharat and the School for the use of Synapse.`}
                 </p>
 
                 <p>
-                    <b>1.2 Subscription Term:</b> {`The subscription term and renewal details are outlined in the separate Subscription Agreement executed between ConatusBharat and the School.`}
+                    <b>1.2 Subscription Term:</b> {`The subscription term and renewal details are outlined in the separate Subscription Agreement executed between WaffleBharat and the School.`}
                 </p>
                 <p>
                     <b>1.3 Fees and Payment:</b> {`The School agrees to pay the subscription fees as specified in the Subscription Agreement. Payment terms and methods are also outlined in the Subscription Agreement.`}
@@ -72,7 +72,7 @@ function TermsOfUse() {
                     <b>6.1 By School:</b> {`The School may terminate this Agreement at any time by providing written notice to us in accordance with the terms of the Subscription Agreement.`}
                 </p>
                 <p>
-                    <b>6.2 By ConatusBharat:</b> {`We may terminate this Agreement for any material breach of these Terms by the School, subject to providing the School with notice and an opportunity to cure the breach.`}
+                    <b>6.2 By WaffleBharat:</b> {`We may terminate this Agreement for any material breach of these Terms by the School, subject to providing the School with notice and an opportunity to cure the breach.`}
                 </p>
                 <br />
                 <h2>Disclaimer of Warranties</h2>
@@ -103,8 +103,8 @@ function TermsOfUse() {
                 
                 <p>
                     {`If you have any questions about these Terms, please contact us at: `} <br />
-                    <b>ConatusBharat</b> <br />
-                    {`Email: conatusbharat@gmail.com`}
+                    <b>WaffleBharat</b> <br />
+                    {`Email: Wafflebharat@gmail.com`}
                 </p>
 
                 <p className="text-sm">

@@ -2,7 +2,7 @@
     {
       "title": "The Architect",
       "name": "Amritansh Mishra",
-      "description": "Leads us with strategic brilliance to achieve long-term success.",
+      "description": "The architect of our vision, leads us with strategic brilliance to achieve long-term success.",
       "image": "/assets/amritansh.jpg",
       "socials": {
         "github": "https://github.com/amritanshmsh",
@@ -13,7 +13,7 @@
     {
       "title": "The Catalyst",
       "name": "Aryan Mehta",
-      "description": "Cultivates a thriving work environment. ",
+      "description": "The Catalyst, cultivates a thriving work environment, building a team of engaged talent for lasting success.",
       "image": "/assets/aryan.jpg",
       "socials": {
         "github": "https://github.com/Aryanmehta01",
@@ -24,12 +24,22 @@
     {
       "title": "The Powerhouse",
       "name": "Chaitanya Gupta",
-      "description": "The operational mastermind, driving us towards strategic goals.",
+      "description": "The operational mastermind, ensures our daily engine runs smoothly, driving us towards strategic goals.",
       "image": "/assets/chaitanya.jpg",
       "socials": {
         "github": "https://github.com/chanu4321",
         "linkedin": "https://www.linkedin.com/in/chaitanyagpt",
         "twitter": "https://x.com/gupta_chanu"
+      }
+    },
+    {
+      "title": "The Tastemaker",
+      "name": "Disha Srivastava",
+      "description": "Crafting visuals that captivate and managing the online narrative, brings brands to life across platforms.",
+      "image": "/assets/disha.jpg",
+      "socials": {
+        "github": "https://github.com/Dishawoshhhher",
+        "linkedin": "https://www.linkedin.com/in/disha-srivastava-91a8712b2"
       }
     },
     {
@@ -43,13 +53,13 @@
       }
     },
     {
-      "title": "The Framework Fanatic",
-      "name": "Siddhant Bansal",
-      "description": "A devotee of frontend frameworks.",
-      "image": "/assets/siddhant.jpg",
+      "title": "The Data Whisperer",
+      "name": "Shivansh Mishra",
+      "description": "Crunches data and crafts AI models.",
+      "image": "/assets/shivansh.jpg",
       "socials": {
-        "github": "https://github.com/Bugbuster2004",
-        "linkedin": "https://www.linkedin.com/in/siddhant-bansal-8767b4314/"
+        "github": "https://github.com/Sleepy-Sushi",
+        "linkedin": "https://linkedin.com/in/shivansh-mishra09"
       }
     },
     {

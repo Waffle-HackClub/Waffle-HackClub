@@ -1,6 +1,7 @@
 'use client';
-import React, { useState } from "react";
-import { Navbar, NavbarMenu, NavbarMenuItem, NavbarMenuToggle, NavbarBrand, NavbarContent, NavbarItem, Link } from "@nextui-org/react";
+import React, { useState } from 'react';
+import { Navbar, NavbarMenu, NavbarMenuItem, NavbarMenuToggle, NavbarBrand, NavbarContent, NavbarItem } from '@nextui-org/react';
+import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 
 export default function Nav() {
@@ -24,34 +25,34 @@ export default function Nav() {
             {/* Centered brand */}
             <NavbarContent className="flex-grow justify-center sm:justify-start">
                 <NavbarBrand className="flex items-center justify-center">
-                    <p className="font-bold text-inherit">CONATUS BHARAT</p>
+                    <p className="font-bold text-inherit">Hack Club</p>
                 </NavbarBrand>
             </NavbarContent>
 
             {/* Desktop menu items */}
             <NavbarContent className="hidden sm:flex gap-4" justify="center">
                 <NavbarItem>
-                    <Link color="foreground" href="/#home">
+                    <Link href="/#home" className="text-foreground">
                         Home
                     </Link>
                 </NavbarItem>
                 <NavbarItem>
-                    <Link color="foreground" href="/Blogs">
-                        Blog
+                    <Link href="/Blogs" className="text-foreground">
+                        Events
                     </Link>
                 </NavbarItem>
                 <NavbarItem>
-                    <Link href="/#Synapse">
-                        Wonder
+                    <Link href="/#Synapse" className="text-amber-600 font-bold">
+                        Waffle
                     </Link>
                 </NavbarItem>
                 <NavbarItem>
-                    <Link color="foreground" href="/#socials">
+                    <Link href="/#socials" className="text-foreground">
                         Socials
                     </Link>
                 </NavbarItem>
                 <NavbarItem>
-                    <Link color="foreground" href="/Team">
+                    <Link href="/Team" className="text-foreground">
                         Team
                     </Link>
                 </NavbarItem>
@@ -60,67 +61,36 @@ export default function Nav() {
             {/* Contact link on the right */}
             <NavbarContent justify="end">
                 <NavbarItem isActive className="lg:flex">
-                    <Link href="/#join">Contact Us</Link>
+                    <Link href="/#join" className="text-amber-600">
+                        Contact Us
+                    </Link>
                 </NavbarItem>
             </NavbarContent>
 
             {/* Menu items for mobile */}
             <NavbarMenu>
                 <NavbarMenuItem>
-                    <Link
-                        onPress={(e) => {
-                            setMenu(false);
-                            router.push('/#home');
-                        }}
-                        color="foreground"
-                        href="/#home"
-                    >
+                    <Link href="/#home" className="text-foreground" onClick={() => setMenu(false)}>
                         Home
                     </Link>
                 </NavbarMenuItem>
                 <NavbarMenuItem>
-                    <Link
-                        onPress={(e) => {
-                            setMenu(false);
-                            router.push('/Blogs');
-                        }}
-                        color="foreground"
-                        href="/Blogs"
-                    >
+                    <Link href="/Blogs" className="text-foreground" onClick={() => setMenu(false)}>
                         Blog
                     </Link>
                 </NavbarMenuItem>
                 <NavbarMenuItem>
-                    <Link
-                        onPress={(e) => {
-                            setMenu(false);
-                            router.push('/#Synapse');
-                        }}
-                    >
+                    <Link href="/#Synapse" className="text-amber-600" onClick={() => setMenu(false)}>
                         Synapse
                     </Link>
                 </NavbarMenuItem>
                 <NavbarMenuItem>
-                    <Link
-                        onPress={(e) => {
-                            setMenu(false);
-                            router.push('/#socials');
-                        }}
-                        color="foreground"
-                        href="/#socials"
-                    >
+                    <Link href="/#socials" className="text-foreground" onClick={() => setMenu(false)}>
                         Socials
                     </Link>
                 </NavbarMenuItem>
                 <NavbarMenuItem>
-                    <Link
-                        onPress={(e) => {
-                            setMenu(false);
-                            router.push('/Team');
-                        }}
-                        color="foreground"
-                        href="/Team"
-                    >
+                    <Link href="/Team" className="text-foreground" onClick={() => setMenu(false)}>
                         Team
                     </Link>
                 </NavbarMenuItem>

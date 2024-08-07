@@ -78,15 +78,15 @@ const About: React.FC = () => {
 
             {/* Text content */}
             <div className="relative z-10">
-                <p ref={firstRef} style={{ opacity: 0.2 }} className='font-semibold md:text-5xl text-3xl'> We are not a coaching center</p>
-                <p ref={secondRef} style={{ opacity: 0.2 }} className='font-semibold md:text-5xl text-3xl'> We are not about traditional careers</p>
-                <p ref={thirdRef} style={{ opacity: 0.2 }} className='font-semibold md:text-5xl text-3xl'>
-                    Conatus is a platform to help you 
+                <p ref={firstRef} style={{ opacity: 0.2 }} className='font-semibold md:text-5xl text-3xl py-5'> We are not just a club</p>
+                <p ref={secondRef} style={{ opacity: 0.2 }} className='font-semibold md:text-5xl text-3xl '> We are not about traditional careers</p>
+                <p ref={thirdRef} style={{ opacity: 0.2 }} className='font-semibold md:text-5xl text-3xl py-5'>
+                    Waffle is a platform to help you 
                 </p>
                 <p ref={fourthRef} style={{ opacity: 0.2 }} className='font-semibold md:text-5xl text-3xl'>
                     reach your full potential,
                 </p>
-                <p ref={fifthRef} style={{ opacity: 0.2 }} className='font-semibold md:text-5xl text-3xl'> Conatus is your first believer</p>
+                <p ref={fifthRef} style={{ opacity: 0.2 }} className='font-semibold md:text-5xl text-3xl py-5'> Whatever  your field may be</p>
             </div>
         </div>
     );

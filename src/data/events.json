@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Tech Conference 2023",
+    "venue": "Los Angeles Convention Center, CA",
+    "time": "September 25, 2023, 10:00 AM - 4:00 PM",
+    "about": "A comprehensive technology conference bringing together leading minds in the tech industry to discuss the future of technology and innovation.",
+    "imageUrl": "/assets/tech-conference-2023.png"
+  },
+  {
+    "id": 2,
+    "name": "AI & Machine Learning Summit",
+    "venue": "Moscone Center, San Francisco, CA",
+    "time": "October 10, 2023, 9:00 AM - 5:00 PM",
+    "about": "Explore the latest advancements in AI and machine learning with industry experts and thought leaders.",
+    "imageUrl": "/assets/ai-ml-summit.png"
+  },
+  {
+    "id": 3,
+    "name": "Web Development Workshop",
+    "venue": "Online",
+    "time": "November 5, 2023, 1:00 PM - 3:00 PM",
+    "about": "A hands-on workshop covering the latest web development frameworks and best practices.",
+    "imageUrl": "assets/original-59034650a70fdc803d709a0684f91592.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Blockchain Expo",
+    "venue": "Jacob K. Javits Convention Center, New York, NY",
+    "time": "December 1, 2023, 10:00 AM - 6:00 PM",
+    "about": "Join industry leaders to discuss the future of blockchain technology and its applications across various sectors.",
+    "imageUrl": "/assets/original-8712b05e2f6dff80d13d399db690d5a5.png"
+  },
+  {
+    "id": 5,
+    "name": "Cybersecurity Conference",
+    "venue": "Washington State Convention Center, Seattle, WA",
+    "time": "January 15, 2024, 9:00 AM - 5:00 PM",
+    "about": "A conference focused on the latest trends and best practices in cybersecurity.",
+    "imageUrl": "/assets/cybersecurity-conference.png"
+  }
+]

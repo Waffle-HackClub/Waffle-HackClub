@@ -9,7 +9,7 @@ function PrivacyPolicy() {
 
             <div className="prose lg:prose-xl mb-8"> 
                 <p>
-                    {`Conatus Bharat ("we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services. By using our services, you agree to the collection and use of information in accordance with this policy.`}
+                    {`Waffle Bharat ("we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services. By using our services, you agree to the collection and use of information in accordance with this policy.`}
                 </p>
                 <br />
                 <h2>Information We Collect</h2>
@@ -66,8 +66,8 @@ function PrivacyPolicy() {
                 <h2>Contact Us</h2>
                 <p>
                     If you have any questions about this Privacy Policy, please contact us at: <br />
-                    <b>Conatus Bharat</b> <br />
-                    Email: conatusbharat@gmail.com
+                    <b>Waffle Bharat</b> <br />
+                    Email: Wafflebharat@gmail.com
                 </p>
             </div>
 

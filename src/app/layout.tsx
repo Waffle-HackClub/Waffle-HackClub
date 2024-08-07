@@ -9,7 +9,7 @@ const inter = font({ subsets: ["latin"] });
 
 
 export const metadata: Metadata = {
-  title: "Conatus",
+  title: "Waffle",
   description: "Own Tomorrow",
 };
 

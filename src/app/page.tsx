@@ -2,12 +2,11 @@ import Hero from "@/components/Hero";
 
 import { SparklesCore } from "@/components/ui/sparkles";
 import About from '@/components/About'
-import Vision from '@/components/Vision'
+
 import Socials from "@/components/Socials";
-import Blog from "@/components/Blog";
+import Blog from "@/components/Events";
 import ContactUs from "@/components/ContactUs";
 import FaqSection from "@/components/FaqSection";
-import Mission from "@/components/Mission";
 
 
 export default function Home() {
@@ -28,8 +27,7 @@ export default function Home() {
       <Hero />
       <About />
       
-      <Vision />
-      <Mission />
+ 
       <Blog />
       <FaqSection/>
       <Socials/>

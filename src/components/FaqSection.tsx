@@ -4,22 +4,28 @@ import { gsap } from 'gsap';
 
 const faqData = [
   {
-    question: "What does Conatus Bharat offer?",
-    answer: "Conatus Bharat develops innovative educational tools that empower students to discover their potential, cultivate essential skills, and explore diverse career paths.",
+    question: "What does Waffle Hack Club offer?",
+    answer: "Waffle Hack Club provides a supportive community and resources to help you excel in your field, whether it's coding, design, entrepreneurship, or any other area of interest.",
   },
   {
-    question: "How is Conatus Bharat different from other ed-tech companies?",
-    answer: "We take a holistic approach to education, going beyond traditional academics to nurture multiple intelligences, personal interests, and unique skills in each student.",
+    question: "How is Waffle Hack Club different from other clubs?",
+    answer: "We take a holistic approach to personal and professional development, offering workshops, mentorship, and collaborative projects that go beyond just coding to nurture diverse skills and interests.",
   },
   {
-    question: "How does Conatus Bharat involve parents and teachers in the learning process?",
-    answer: "We believe in collaboration! Our platform provides tools for parents and teachers to track progress, offer support, and work together to create the most effective learning environment for each child.",
+    question: "How does Waffle Hack Club involve members in the learning process?",
+    answer: "We believe in hands-on learning and collaboration! Our club organizes regular workshops, hackathons, and project collaborations that engage members and provide practical experience.",
   },
   {
-    question: "What is Wonder?",
-    answer: "Its is a platform developed by Contaus Bharat which is an adaptive learning assessment tool you can visit the website at iamwonder.in ",
+    question: "What kind of workshops does Waffle Hack Club provide?",
+    answer: "Our workshops cover a wide range of topics, including coding, design, entrepreneurship, and personal development, ensuring members can develop skills in various fields.",
+  },
+  {
+    question: "How can I join Waffle Hack Club?",
+    answer: "You can join Waffle Hack Club by visiting our website and signing up for membership. We welcome individuals from all backgrounds and skill levels who are eager to learn and collaborate.",
   },
 ];
+
+
 
 const FaqSection: React.FC = () => {
   useEffect(() => {

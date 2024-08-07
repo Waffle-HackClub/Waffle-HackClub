@@ -8,9 +8,9 @@ import {FaXTwitter} from 'react-icons/fa6';
 gsap.registerPlugin(ScrollTrigger);
 
 const socials = [
-  { id: 1, icon: FaInstagram, label: 'Instagram', link: 'https://www.instagram.com/conatusbharat/' },
-  { id: 2, icon: FaXTwitter, label: 'Twitter', link: 'https://x.com/ConatusBharat' },
-  { id: 3, icon: FaLinkedin, label: 'LinkedIn', link: 'https://www.linkedin.com/company/conatusbharat' },
+  { id: 1, icon: FaInstagram, label: 'Instagram', link: 'https://www.instagram.com/Wafflebharat/' },
+  { id: 2, icon: FaXTwitter, label: 'Twitter', link: 'https://x.com/WaffleBharat' },
+  { id: 3, icon: FaLinkedin, label: 'LinkedIn', link: 'https://www.linkedin.com/company/Wafflebharat' },
 ];
 
 const Socials: React.FC = () => {

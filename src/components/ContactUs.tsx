@@ -12,7 +12,7 @@ function ContactUs() {
     <div id="join" className="h-auto w-full rounded-md flex flex-col items-center justify-center mx-auto py-12 gap-6 md:gap-8 md:flex-row"> 
     <div className="flex flex-col items-center gap-3 md:gap-4 w-full md:w-1/2 text-center py-8 px-4 md:px-0"> 
       <h1 className="mt-4 md:mt-0 mb-2 text-2xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r h-20 from-white to-blue-500">
-        Subscibe Now
+        Contact Us
       </h1> 
         {!isSubmitted ? (
           <form action="submit" className="flex flex-col items-center gap-2 w-80 relative">
