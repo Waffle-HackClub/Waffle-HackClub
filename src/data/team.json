@@ -1,0 +1,66 @@
+[
+    {
+      "title": "The Architect",
+      "name": "Amritansh Mishra",
+      "description": "Leads us with strategic brilliance to achieve long-term success.",
+      "image": "/assets/amritansh.jpg",
+      "socials": {
+        "github": "https://github.com/amritanshmsh",
+        "linkedin": "https://www.linkedin.com/in/amritanshmsh",
+        "twitter": "https://twitter.com/amritanshmsh"
+      }
+    },
+    {
+      "title": "The Catalyst",
+      "name": "Aryan Mehta",
+      "description": "Cultivates a thriving work environment. ",
+      "image": "/assets/aryan.jpg",
+      "socials": {
+        "github": "https://github.com/Aryanmehta01",
+        "linkedin": "https://www.linkedin.com/in/aryan-mehta-217069201/",
+        "twitter": "https://x.com/the_aryanmehta?t=u5smJ183yBxwxEEkpeI3cw&s=08"
+      }
+    },
+    {
+      "title": "The Powerhouse",
+      "name": "Chaitanya Gupta",
+      "description": "The operational mastermind, driving us towards strategic goals.",
+      "image": "/assets/chaitanya.jpg",
+      "socials": {
+        "github": "https://github.com/chanu4321",
+        "linkedin": "https://www.linkedin.com/in/chaitanyagpt",
+        "twitter": "https://x.com/gupta_chanu"
+      }
+    },
+    {
+      "title": "The Digital Maestro",
+      "name": "Saksham Malhotra",
+      "description": "Bridges the gap between ideas and innovation.",
+      "image": "/assets/saksham.png",
+      "socials": {
+        "github": "https://github.com/saksham-malhotra-27",
+        "linkedin": "https://www.linkedin.com/in/saksham-malhotra-27tech"
+      }
+    },
+    {
+      "title": "The Framework Fanatic",
+      "name": "Siddhant Bansal",
+      "description": "A devotee of frontend frameworks.",
+      "image": "/assets/siddhant.jpg",
+      "socials": {
+        "github": "https://github.com/Bugbuster2004",
+        "linkedin": "https://www.linkedin.com/in/siddhant-bansal-8767b4314/"
+      }
+    },
+    {
+      "title": "The Pixel Pioneer",
+      "name": "Varun Singh",
+      "description": "The Pixel Magician, breathes life into designs.",
+      "image": "/assets/varun.jpg",
+      "socials": {
+        "github": "https://github.com/VarunSinghBot",
+        "linkedin": "https://www.linkedin.com/in/varun-singh-09b0b42aa/"
+      }
+    }
+  ]
+  
