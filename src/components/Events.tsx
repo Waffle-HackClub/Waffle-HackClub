@@ -32,7 +32,7 @@ export function Events() {
   return (
     <div className="container mx-auto py-12 md:px-0 max-w-7xl">
       <div className="text-center mb-0">
-        <h1 className="text-2xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-blue-500 h-20">
+        <h1 className="text-2xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-amber-600 h-20">
           Events
         </h1>
       </div>
@@ -69,7 +69,7 @@ export function Events() {
               </CardItem>
 
               <div className="flex justify-center items-center mt-7">
-                <CardItem translateZ={20} as="button" className="px-4 py-2 rounded-xl bg-white dark:bg-white dark:text-black text-black text-xs font-bold">
+                <CardItem translateZ={20} as="button" className="px-4 py-2 rounded-xl text-amber-600 bg-white dark:bg-white dark:text-amber-600 text-xs font-bold">
                   <Link href={`/Events/${event.id}`}>See →</Link>
                 </CardItem>
               </div>
@@ -79,7 +79,7 @@ export function Events() {
       </div>
 
       <div className="flex items-center justify-center mt-8">
-        <button className="px-4 py-2 rounded-xl relative bg-white dark:bg-white dark:text-black text-black text-l font-bold" type="button">
+        <button className="px-4 py-2 rounded-xl relative bg-amber-600 dark:bg-amber-600 dark:text-white text-white text-l font-bold" type="button">
           <Link href="/Events">View More</Link>
         </button>
       </div>
