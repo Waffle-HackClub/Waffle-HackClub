@@ -32,7 +32,7 @@ async function connectDB() {
 
 const EmailSchema = mongoose.Schema(
   {
-    email: String
+    email: { type: String, required: true }
   },
   {
     timestamps: true,

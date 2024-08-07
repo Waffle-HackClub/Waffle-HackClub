@@ -1,17 +1,16 @@
-"use server"
-import {connection, dataModel } from "@/actions/connectDB"
+"use server";
+import { connection, dataModel } from "@/actions/connectDB";
 
-export default async function action(str: string) {
- try{
+export default async function action(email: string) {
+  try {
     await connection;
-    const email = new dataModel({
-      email:str 
-    }
-    )
-    await email.save()
-    return true 
- }
- catch(err){
-    return false
- }
+    const newEmail = new dataModel({
+      email: email,
+    });
+    await newEmail.save();
+    return true;
+  } catch (err) {
+    console.error(err);
+    return false;
+  }
 }

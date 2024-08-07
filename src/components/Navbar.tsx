@@ -37,7 +37,7 @@ export default function Nav() {
                     </Link>
                 </NavbarItem>
                 <NavbarItem>
-                    <Link href="/Blogs" className="text-foreground">
+                    <Link href="/Events" className="text-foreground">
                         Events
                     </Link>
                 </NavbarItem>
@@ -75,8 +75,8 @@ export default function Nav() {
                     </Link>
                 </NavbarMenuItem>
                 <NavbarMenuItem>
-                    <Link href="/Blogs" className="text-foreground" onClick={() => setMenu(false)}>
-                        Blog
+                    <Link href="/Events" className="text-foreground" onClick={() => setMenu(false)}>
+                        Events
                     </Link>
                 </NavbarMenuItem>
                 <NavbarMenuItem>
