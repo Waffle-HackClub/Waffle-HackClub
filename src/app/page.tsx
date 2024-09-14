@@ -5,7 +5,6 @@ import About from '@/components/About'
 
 import Socials from "@/components/Socials";
 import Blog from "@/components/Events";
-import ContactUs from "@/components/ContactUs";
 import FaqSection from "@/components/FaqSection";
 
 
@@ -31,7 +30,6 @@ export default function Home() {
       <Blog />
       <FaqSection/>
       <Socials/>
-      <ContactUs/>
       </div>
     </>
   );
