@@ -5,7 +5,8 @@
     "venue": "Online",
     "time": "November 5, 2023, 1:00 PM - 3:00 PM",
     "about": "A hands-on workshop covering the latest web development frameworks and best practices.",
-    "imageUrl": "/assets/original-59034650a70fdc803d709a0684f91592.jpg"
+    "imageUrl": "/assets/original-59034650a70fdc803d709a0684f91592.jpg",
+    "galleryLink": "https://drive.google.com/your-gallery-link"
   },
   {
     "id": 4,
@@ -13,6 +14,7 @@
     "venue": "Jacob K. Javits Convention Center, New York, NY",
     "time": "December 1, 2023, 10:00 AM - 6:00 PM",
     "about": "Join industry leaders to discuss the future of blockchain technology and its applications across various sectors.",
-    "imageUrl": "/assets/original-8712b05e2f6dff80d13d399db690d5a5.png"
+    "imageUrl": "/assets/original-8712b05e2f6dff80d13d399db690d5a5.png",
+    "galleryLink": "https://drive.google.com/your-gallery-link"
   }
 ]

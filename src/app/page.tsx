@@ -8,6 +8,7 @@ import Blog from "@/components/Events";
 import FaqSection from "@/components/FaqSection";
 
 
+
 export default function Home() {
   return (
     <> 
@@ -30,6 +31,9 @@ export default function Home() {
       <Blog />
       <FaqSection/>
       <Socials/>
+  
+      
+  
       </div>
     </>
   );

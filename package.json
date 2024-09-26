@@ -20,7 +20,7 @@
     "framer-motion": "^11.2.10",
     "gsap": "^3.12.5",
     "mongoose": "^8.4.3",
-    "next": "14.2.4",
+    "next": "^14.2.13",
     "postcss-loader": "^8.1.1",
     "react": "^18",
     "react-dom": "^18",
