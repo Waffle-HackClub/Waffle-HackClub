@@ -1,13 +1,48 @@
 [
   {
-    "title": "The Architect",
+    "title": "Gen-0(C0-Founder)",
     "name": "Amritansh Mishra",
-    "description": "Leads us with strategic brilliance to achieve long-term success.",
-    "image": "/assets/amritansh.jpg",
+    "description": "The Busy Human",
+    "image": "/assets/AmritanshM.jpg",
     "socials": {
       "github": "https://github.com/amritanshmsh",
       "linkedin": "https://www.linkedin.com/in/amritanshmsh",
       "twitter": "https://twitter.com/amritanshmsh"
+    }
+  },
+  {
+    "title": "Gen-0(Co-Founder)",
+    "name": "Akshay Singh",
+    "description": "President Potato",
+    "image": "/assets/akshayF.jpg",
+    "socials": {
+      "github": "https://github.com/RandomPerson365",
+      "linkedin": "https://www.linkedin.com/in/akshay-singh-98314b169",
+      "twitter": ""
+    }
+  },
+  
+  {
+    "title": "Gen-0(Mentor)",
+    "name": "Tanish Mishra",
+    "description": "DOM Manipulator",
+    "image": "/assets/Tanish.jpg",
+    "socials": {
+      "github": "https://github.com/Tanish-Mishra",
+      "linkedin": "https://www.linkedin.com/in/tanish-mishra-5a7478265/",
+      "twitter": ""
+    }
+  },
+  
+  {
+    "title": "Gen-0(Mentor)",
+    "name": "Amay Mishra",
+    "description": "Loading...",
+    "image": "/assets/AmayM.jpg",
+    "socials": {
+      "github": "https://github.com/kshimate",
+      "linkedin": "https://www.linkedin.com/in/kshimate",
+      "twitter": "https://twitter.com/kshimate"
     }
   }
 ]

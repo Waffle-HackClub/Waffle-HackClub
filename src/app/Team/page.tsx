@@ -13,7 +13,7 @@ function Team() {
         </h1>
       </div>
 
-      <div className="grid grid-cols-1 w-full md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8 gap-y-16"> {/* Responsive grid */}
+      <div className="grid grid-cols-1 w-full md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 gap-y-16"> {/* Responsive grid */}
         {teamData.map((member, index) => (
           <PinContainer key={index} title={member.title}>
             <div className="flex basis-full flex-col p-1 tracking-tight text-slate-100/50 sm:basis-1/2 w-[15rem] h-[20rem] mx-auto"> {/* Ensure card centering */}
@@ -27,12 +27,12 @@ function Team() {
               </div>
               <div className="relative flex flex-1 w-full rounded-lg mt-4">
                 <img
-                  style={{ objectFit: 'cover', width: '100%', height: '100%', borderRadius: '0.5rem' }}
+                  style={{ objectFit: 'cover', width: '80%', height: '80%', borderRadius: '0.5rem', justifySelf: 'center' }}
                   src={member.image}
                   alt={member.name}
                 />
               </div>
-              <div className="flex mt-2">
+              <div className="flex mt-2  justify-between">
                 {member.socials.github && (
                   <a href={member.socials.github} target="_blank" rel="noopener noreferrer" className="mr-2 text-white hover:text-gray-400">
                     <AiFillGithub size={24} />
