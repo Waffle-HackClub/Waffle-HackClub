@@ -1,6 +1,6 @@
 [
   {
-    "id": 3,
+    "id": 1,
     "name": "Web Development Workshop",
     "venue": "Online",
     "time": "November 5, 2023, 1:00 PM - 3:00 PM",
@@ -9,7 +9,7 @@
     "galleryLink": "https://drive.google.com/your-gallery-link"
   },
   {
-    "id": 4,
+    "id": 2,
     "name": "Blockchain Expo",
     "venue": "Jacob K. Javits Convention Center, New York, NY",
     "time": "December 1, 2023, 10:00 AM - 6:00 PM",
